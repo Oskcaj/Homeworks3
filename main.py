@@ -669,3 +669,14 @@ print("感謝選購以下物品! ") #只顯示一次的內容
 for item in shopping_cart:
     print(f"\n {item.name} {item.category} (ID:{item.product_id}) x1件   HK${item.price:,.2f}")
 print(f"\n\n 總共 {len(shopping_cart)}件傢俬，總金額為：HK${total:,.2f}")
+    
+
+from sqlmodel import Field, SQLModel, create_engine
+
+
+class Hero(SQLModel, table=True):
+    id: int | None = Field(default=None, primary_key=True)
+    name: str
+    secret_name: str
+    age: int | None = None
+
