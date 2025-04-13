@@ -10,5 +10,11 @@ pip install requests ? install at the startup ?
 learn how to syn to github, 1, git config --global user.name "Jack So" -> enter 2, git config ==global use.email "oskcaj@gmail.com" -> enter 3, when syn it will non-stop loading, need input a commit.
 read other ppl python file, input pip install -r requirements.txt , it will auto to install all you need software
 
+功課。
+1， 將第二堂的功課，用SQLMODEL來處理。 
+2， 將產品資料放入SQLITE DATABASE內
+3， 重寫SHOPPING CART ，要應用 SQLMODEL，要對按DATABASE 應用
+4， 全份功課同步到GITHUB
+
 
 
